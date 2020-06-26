@@ -1,17 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_couter/src/app.dart';
+
 void main() {
-  runApp(new MyApp());
-}
-
-class MyApp extends StatelessWidget {
-
-  @override
-  Widget build( context ) {
-    return MaterialApp (
-      home: Center(
-        child: Text('Hola mundo'),
-      )
-    );
-  }
+  runApp( MyApp() );
 }

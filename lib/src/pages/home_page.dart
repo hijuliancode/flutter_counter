@@ -26,7 +26,8 @@ class HomePage extends StatelessWidget {
         onPressed: () {
           print('Hola mundo!');
         },
-      )
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
